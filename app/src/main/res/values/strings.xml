@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">E-Voting App</string>
+
+    <string-array name="ward_array">
+        <item>WARD 1</item>
+        <item>WARD 2</item>
+        <item>WARD 3</item>
+        <item>WARD 4</item>
+        <item>WARD 5</item>
+        <item>WARD 6</item>
+        <item>WARD 7</item>
+        <item>WARD 8</item>
+        <item>WARD 9</item>
+        <item>WARD 10</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+</resources>

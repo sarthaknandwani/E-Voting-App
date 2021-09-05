@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977413010391",
+    "project_id": "e-voting-app-47ec6",
+    "storage_bucket": "e-voting-app-47ec6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977413010391:android:55149d15743c8875905192",
+        "android_client_info": {
+          "package_name": "com.example.e_votingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977413010391-gglb522noellterc9aifqor3lp5fn1ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6rfXwIe5QtmPhVjWo8HOQnl8GBbeRy0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977413010391-gglb522noellterc9aifqor3lp5fn1ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

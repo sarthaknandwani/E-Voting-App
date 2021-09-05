@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_bg"
+    tools:context=".adminHome">
+
+    <TextView
+        android:id="@+id/welcomeAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Welcome Admin"
+        android:textColor="@color/blue_text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNewCandidate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="NEW CANDIDATE"
+        app:backgroundTint="@color/white_bg_btn"
+        android:background="@drawable/rounded_corners"
+        android:padding="10dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeAdmin" />
+
+    <Button
+        android:id="@+id/btnViewCandidate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="VIEW CANDIDATES LIST"
+        app:backgroundTint="@color/white_bg_btn"
+        android:background="@drawable/rounded_corners"
+        android:padding="10dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNewCandidate" />
+
+    <Button
+        android:id="@+id/btnNewVoter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="NEW VOTER"
+        app:backgroundTint="@color/white_bg_btn"
+        android:background="@drawable/rounded_corners"
+        android:padding="10dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewCandidate" />
+
+    <Button
+        android:id="@+id/btnViewVoter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="VIEW VOTERS LIST"
+        app:backgroundTint="@color/white_bg_btn"
+        android:background="@drawable/rounded_corners"
+        android:padding="10dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNewVoter" />
+
+    <Button
+        android:id="@+id/btnResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="RESULTS"
+        app:backgroundTint="@color/white_bg_btn"
+        android:background="@drawable/rounded_corners"
+        android:padding="10dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewVoter" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="LOGOUT"
+        app:backgroundTint="@color/white_bg_btn"
+        android:background="@drawable/rounded_corners"
+        android:padding="10dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnResults" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

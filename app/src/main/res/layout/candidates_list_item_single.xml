@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green_bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/list_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@color/off_white"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="@color/green_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@color/white_bg_btn"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_id" />
+
+    <TextView
+        android:id="@+id/list_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@color/off_white"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_name" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/list_doe"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        android:background="@color/white_bg_btn"-->
+<!--        android:textSize="18sp"-->
+<!--        android:padding="5dp"-->
+<!--        android:textColor="@color/blue_text"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/list_dob" />-->
+
+    <TextView
+        android:id="@+id/list_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@color/white_bg_btn"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_dob" />
+
+    <TextView
+        android:id="@+id/list_party"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@color/off_white"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_gender" />
+
+    <TextView
+        android:id="@+id/list_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@color/white_bg_btn"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="@color/blue_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_party" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/list_ward"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        android:background="@color/white_bg_btn"-->
+<!--        android:textSize="18sp"-->
+<!--        android:padding="5dp"-->
+<!--        android:textColor="@color/blue_text"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/list_phone" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
